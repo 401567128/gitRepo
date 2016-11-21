@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="__PUBLIC__/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="__PUBLIC__/css/Home/Index/style.css"/>
+    <script type="text/javascript" src='__PUBLIC__/js/Home/Index/jquery-1.7.2.min.js'></script>
+    <script type="text/javascript" src='__PUBLIC__/js/Home/Index/index.js'></script>
+    <title>留言便条</title>
+    <style>
+      body{
+        background-color: transparent;
+      }
+    </style>
+</head>
+<body>
+      <!-- 首页便签效果显示开始 -->
+      <div class="tab-pane" id="main">
+        <div class="container">
+          <volist name="data" id="vo">
+            <dl class='paper a<?php echo rand(1,5);?>'>
+              <dt>
+                  <span class='username'>{$vo.nickname}</span>
+                  <span class='num'>No.{$vo.id}</span>
+              </dt>
+              <dd class='content'>
+                  {$vo.msg}
+              </dd>
+              <dd class='bottom'>
+                  <span class='time'>{$vo.time|date='Y-m-d H:i:s',###}</span>
+                  <if condition="$vo.sex eq 1">
+                    <span class="head_pic">
+                      <img src="__PUBLIC__/image/Home/Index/paper_man.png" width="40" height="45">
+                    </span>
+                    <else />
+                      <span class="head_pic">
+                        <img src="__PUBLIC__/image/Home/Index/paper_woman.png" width="40" height="45">
+                      </span>
+                  </if>
+                  <a href="" class='close'></a>
+              </dd>
+            </dl>
+          </volist>
+        </div>
+      </div>
+      <!-- 首页便签效果结束 -->    
+</body>
+<script src="__PUBLIC__/js/jquery.min.js"></script>
+<script src="__PUBLIC__/js/bootstrap.min.js"></script>
+</html>

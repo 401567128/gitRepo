@@ -1,0 +1,238 @@
+[ 2016-11-10T20:52:18+08:00 ] 127.0.0.1 /test/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-10T20:52:18+08:00 ] 127.0.0.1 /test/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-10T20:52:18+08:00 ] 127.0.0.1 /test/Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-10T20:52:25+08:00 ] 127.0.0.1 /test/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant username - assumed 'username' D:\Program Files\wamp\www\test\Application\Admin\Controller\LoginController.class.php 第 15 行.
+NOTIC: [8] Use of undefined constant pwd - assumed 'pwd' D:\Program Files\wamp\www\test\Application\Admin\Controller\LoginController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0700s ]
+SQL: SELECT * FROM `ms_user` WHERE ( username= "admin"  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `ms_user` SET `count`='40',`ip`='127.0.0.1',`lasttime`='2016-11-09 09:44:16',`thistime`='2016-11-10 20:52:25' WHERE ( username= "admin"  ) [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-10T20:52:26+08:00 ] 127.0.0.1 /test/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0000s ]
+SQL: SELECT `permissions` FROM `ms_user` WHERE ( id="1" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `permissions` FROM `ms_user` WHERE ( id="1" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `permissions` FROM `ms_user` WHERE ( id="1" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `permissions` FROM `ms_user` WHERE ( id="1" ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-10T20:52:26+08:00 ] 127.0.0.1 /test/Admin/Index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ms_user` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ms_msg` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_msg` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_msg` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_msg` WHERE ( type=0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_msg` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 4 for map(), called in D:\Program Files\wamp\www\test\Application\Admin\Controller\IndexController.class.php on line 74 and defined D:\Program Files\wamp\www\test\Application\Admin\Common\function.php 第 43 行.
+NOTIC: [8] Undefined variable: type D:\Program Files\wamp\www\test\Application\Admin\Common\function.php 第 45 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_msg` WHERE ( `time` > 1478707200 AND `time` < 1478782346  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_msg` WHERE ( `time` > 1478707200 AND `time` < 1478782346  ) AND `type` = 1 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_msg` WHERE ( `time` > 1478707200 AND `time` < 1478782346  ) AND `type` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_msg` WHERE ( `time` > 1478707200 AND `time` < 1478782346  ) AND `type` = 2 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 4 for map(), called in D:\Program Files\wamp\www\test\Application\Admin\Controller\IndexController.class.php on line 83 and defined D:\Program Files\wamp\www\test\Application\Admin\Common\function.php 第 43 行.
+NOTIC: [8] Undefined variable: type D:\Program Files\wamp\www\test\Application\Admin\Common\function.php 第 45 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_msg` WHERE ( `time` > 1478620800 AND `time` < 1478707200  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_msg` WHERE ( `time` > 1478620800 AND `time` < 1478707200  ) AND `type` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_msg` WHERE ( `time` > 1478620800 AND `time` < 1478707200  ) AND `type` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_msg` WHERE ( `time` > 1478620800 AND `time` < 1478707200  ) AND `type` = 2 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 4 for map(), called in D:\Program Files\wamp\www\test\Application\Admin\Controller\IndexController.class.php on line 95 and defined D:\Program Files\wamp\www\test\Application\Admin\Common\function.php 第 43 行.
+NOTIC: [8] Undefined variable: type D:\Program Files\wamp\www\test\Application\Admin\Common\function.php 第 45 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_msg` WHERE ( `time` > 1478448000 AND `time` < 1478782346  ) LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_msg` WHERE ( `time` > 1478448000 AND `time` < 1478782346  ) AND `type` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_msg` WHERE ( `time` > 1478448000 AND `time` < 1478782346  ) AND `type` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_msg` WHERE ( `time` > 1478448000 AND `time` < 1478782346  ) AND `type` = 2 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 4 for map(), called in D:\Program Files\wamp\www\test\Application\Admin\Controller\IndexController.class.php on line 105 and defined D:\Program Files\wamp\www\test\Application\Admin\Common\function.php 第 43 行.
+NOTIC: [8] Undefined variable: type D:\Program Files\wamp\www\test\Application\Admin\Common\function.php 第 45 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_msg` WHERE ( `time` > 1477929600 AND `time` < 1478782346  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_msg` WHERE ( `time` > 1477929600 AND `time` < 1478782346  ) AND `type` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_msg` WHERE ( `time` > 1477929600 AND `time` < 1478782346  ) AND `type` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_msg` WHERE ( `time` > 1477929600 AND `time` < 1478782346  ) AND `type` = 2 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-10T20:52:33+08:00 ] 127.0.0.1 /test/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0000s ]
+SQL: SELECT `permissions` FROM `ms_user` WHERE ( id="1" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `permissions` FROM `ms_user` WHERE ( id="1" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `permissions` FROM `ms_user` WHERE ( id="1" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `permissions` FROM `ms_user` WHERE ( id="1" ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-10T20:52:33+08:00 ] 127.0.0.1 /test/Admin/Index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ms_user` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ms_msg` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_msg` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_msg` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_msg` WHERE ( type=0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_msg` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 4 for map(), called in D:\Program Files\wamp\www\test\Application\Admin\Controller\IndexController.class.php on line 74 and defined D:\Program Files\wamp\www\test\Application\Admin\Common\function.php 第 43 行.
+NOTIC: [8] Undefined variable: type D:\Program Files\wamp\www\test\Application\Admin\Common\function.php 第 45 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_msg` WHERE ( `time` > 1478707200 AND `time` < 1478782353  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_msg` WHERE ( `time` > 1478707200 AND `time` < 1478782353  ) AND `type` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_msg` WHERE ( `time` > 1478707200 AND `time` < 1478782353  ) AND `type` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_msg` WHERE ( `time` > 1478707200 AND `time` < 1478782353  ) AND `type` = 2 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 4 for map(), called in D:\Program Files\wamp\www\test\Application\Admin\Controller\IndexController.class.php on line 83 and defined D:\Program Files\wamp\www\test\Application\Admin\Common\function.php 第 43 行.
+NOTIC: [8] Undefined variable: type D:\Program Files\wamp\www\test\Application\Admin\Common\function.php 第 45 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_msg` WHERE ( `time` > 1478620800 AND `time` < 1478707200  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_msg` WHERE ( `time` > 1478620800 AND `time` < 1478707200  ) AND `type` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_msg` WHERE ( `time` > 1478620800 AND `time` < 1478707200  ) AND `type` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_msg` WHERE ( `time` > 1478620800 AND `time` < 1478707200  ) AND `type` = 2 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 4 for map(), called in D:\Program Files\wamp\www\test\Application\Admin\Controller\IndexController.class.php on line 95 and defined D:\Program Files\wamp\www\test\Application\Admin\Common\function.php 第 43 行.
+NOTIC: [8] Undefined variable: type D:\Program Files\wamp\www\test\Application\Admin\Common\function.php 第 45 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_msg` WHERE ( `time` > 1478448000 AND `time` < 1478782353  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_msg` WHERE ( `time` > 1478448000 AND `time` < 1478782353  ) AND `type` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_msg` WHERE ( `time` > 1478448000 AND `time` < 1478782353  ) AND `type` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_msg` WHERE ( `time` > 1478448000 AND `time` < 1478782353  ) AND `type` = 2 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 4 for map(), called in D:\Program Files\wamp\www\test\Application\Admin\Controller\IndexController.class.php on line 105 and defined D:\Program Files\wamp\www\test\Application\Admin\Common\function.php 第 43 行.
+NOTIC: [8] Undefined variable: type D:\Program Files\wamp\www\test\Application\Admin\Common\function.php 第 45 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_msg` WHERE ( `time` > 1477929600 AND `time` < 1478782353  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_msg` WHERE ( `time` > 1477929600 AND `time` < 1478782353  ) AND `type` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_msg` WHERE ( `time` > 1477929600 AND `time` < 1478782353  ) AND `type` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_msg` WHERE ( `time` > 1477929600 AND `time` < 1478782353  ) AND `type` = 2 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-10T20:52:49+08:00 ] 127.0.0.1 /test/Admin/Index/system_base.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ms_base` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ms_base` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
